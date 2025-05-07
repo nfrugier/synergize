@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Synergize.Agency – Intelligence Digitale Augmentée</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Transformez votre stratégie numérique grâce à nos solutions IA-ready, cloud-native et quantiquement synchronisées.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap">
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f0f10, #1c1c1f);
+      color: #eee;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 4rem;
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid #444;
+      z-index: 2;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #7fffd4;
+      text-shadow: 0 0 4px #00ffff;
+    }
+
+    a {
+      color: #00ffe0;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 100%;
+      height: 2px;
+      background: #00ffe0;
+      box-shadow: 0 0 8px #00ffe0, 0 0 12px #00ffe0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    a:hover {
+      color: #7fffd4; /* ou #00ffff pour un flash plus froid */
+      text-shadow: 0 0 6px #00ffe0, 0 0 12px #00ffe0;
+    }
+
+    a:hover::after {
+      transform: scaleX(1);
+    }
+
+
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #aaa;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem;
+      background: radial-gradient(circle at 50% 50%, #121214DD 0%, #0a0a0b 100%);
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #00ffe0;
+      text-shadow: 0 0 6px #00ffff;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .cta-button {
+      margin-top: 3rem;
+      padding: 1rem 2rem;
+      background: #00ffe0;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 12px #00ffe0;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #00ccaa;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      border-top: 1px solid #222;
+    }
+
+    .section h3 {
+      font-size: 1.8rem;
+      color: #7fffd4;
+      margin-bottom: 1rem;
+    }
+
+    .section p {
+      color: #aaa;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Synergize.Agency</h1>
+    <nav>
+      <a href="./solution.html">Solutions</a>
+      <a href="#">Tech Stack</a>
+      <a href="#">IA Lab</a>
+      <a href="#">Book a Call</a>
+    </nav>
+  </header>
+
+  <div id="particles-js" style="
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       z-index: -10;
+       top: 0;
+       left: 0;
+     "></div>
+  <section class="hero" style="position: relative; z-index: 1;">
+    <h2>Orchestrez votre transformation digitale à l’échelle quantique</h2>
+    <p>
+      Grâce à notre approche holistique centrée données, nous activons des leviers technologiques cloud-native
+      pour synergiser vos opérations dans un écosystème agile décentralisé et scalable.
+    </p>
+    <button class="cta-button" onclick="window.location.href='https://3310st.com/'">Book a Call</button>
+  </section>
+
+  <section class="section">
+    <h3>✨ Ce que nous faisons</h3>
+    <p>
+      Nous catalysons l’innovation technologique via un stack hybride dématérialisé : Kubernetes, Web3, GPT-enhanced APIs,
+      solutions serverless NFTs interopérables. Notre équipe pluridisciplinaire déploie des sprints IA-first pour maximiser votre ROI
+      algorithmiquement.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3>🧠 Notre lab IA contextuelle</h3>
+    <p>
+      Nous avons formé notre propre modèle d’intelligence artificielle "SYNERGIA™", nourri exclusivement de pitch decks et de discours TEDx.
+      Ce moteur sémantique améliore votre business model par compression vectorielle de vos valeurs fondamentales.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Synergize.Agency – Une filiale du <a href='https://3310st.com/'>Groupe Transdigital Cloud Native Conglomérat</a>.
+    <br>Propulsé par WordPress, jQuery, React Native, Bootstrap, Tailwind, Angular et PrestaShop simultanément.
+    <br><a href='https://3310st.com/'>Toute disruption commence par un audit.</a>
+    <button onclick="window.location.href='https://3310st.com/'" style="
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: transparent;
+            border: 1px solid #00ffe0;
+            color: #00ffe0;
+            padding: 0.5rem 1rem;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.8rem;
+            cursor: pointer;
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+          ">Mute</button>
+  </footer>
+  <audio id="bgmusic" autoplay loop>
+    <source src="./assets/corporate_hell.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Popup RGPD style high-tech -->
+  <div id="cookie-popup" style="
+    position: fixed;
+    top: 12.5vh;
+    left: 12.5vw;
+    width: 75vw;
+    height: 75vh;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    border: 2px solid #00ffe0;
+    border-radius: 16px;
+    box-shadow: 0 0 24px #00ffe0;
+    color: #dff;
+    padding: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.85rem;
+    z-index: 9999;
+    overflow-y: auto;
+  ">
+
+    <h2 style="
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #00ffe0;
+      text-shadow: 0 0 8px #00ffe0;
+    ">Centre de pilotage RGPD</h2>
+
+    <p style="margin-bottom: 1.2rem;">
+      En application du RGPD (UE 2016/679), vous êtes actuellement dans l’obligation réglementaire de lire ce paragraphe
+      avant toute interaction non-anonyme avec cette interface numérique IA-compatible.
+    </p>
+
+    <p style="margin-bottom: 1.2rem;">
+      Article 6(1) : “Le traitement est licite si, et dans la mesure où, la personne concernée a consenti explicitement à une ou plusieurs finalités définies par l'entité responsable de traitement.”
+    </p>
+
+    <p style="margin-bottom: 1.2rem;">
+      Cette instance déclare ne pas collecter de traceurs tiers, mais simule volontairement un environnement réglementaire immersif.
+      Toute pression sur les boutons ci-dessous activera un protocole audio contextuel sans incidence sur votre vie privée.
+    </p>
+
+    <div style="margin-top: 2rem; text-align: right;">
+      <button id="accept" style="
+        padding: 0.8rem 1.5rem;
+        margin-right: 1rem;
+        background: transparent;
+        border: 2px solid #00ffe0;
+        color: #00ffe0;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s;
+      ">Tout accepter</button>
+
+      <button id="refuse" style="
+        padding: 0.8rem 1.5rem;
+        background: transparent;
+        border: 2px solid #00ffe0;
+        color: #00ffe0;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s;
+      ">Refuser les cookies non essentiels</button>
+    </div>
+  </div>
+
+  <audio id="bgmusic" autoplay loop muted>
+    <source src="/assets/ambience-loop.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const audio = document.getElementById('bgmusic');
+    audio.volume = 0.1;
+    const popup = document.getElementById('cookie-popup');
+
+    const launchAudio = () => {
+      audio.muted = false;
+      audio.play().catch(() => {});
+      popup.remove();
+    };
+
+    document.getElementById('accept').addEventListener('click', launchAudio);
+    document.getElementById('refuse').addEventListener('click', launchAudio);
+  </script>
+
+  <script>
+    particlesJS('particles-js', {
+      particles: {
+        number: { value: 150, density: { enable: true, value_area: 800 } },
+        color: { value: "#00ffe0" },
+        shape: {
+          type: "circle",
+          stroke: { width: 0, color: "#000000" },
+          polygon: { nb_sides: 5 }
+        },
+        opacity: {
+          value: 0.5,
+          random: false,
+          anim: { enable: false }
+        },
+        size: {
+          value: 3,
+          random: true,
+          anim: { enable: false }
+        },
+        line_linked: {
+          enable: true,
+          distance: 150,
+          color: "#00ffe0",
+          opacity: 0.3,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 4,
+          direction: "none",
+          random: false,
+          straight: false,
+          out_mode: "out"
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "grab" },
+          onclick: { enable: false },
+          resize: true
+        },
+        modes: {
+          grab: { distance: 140, line_linked: { opacity: 0.5 } }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+
+</body>
+</html>

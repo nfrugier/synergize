@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nos Solutions – Synergize.Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background: #0c0c0e;
+      font-family: 'Orbitron', sans-serif;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 2rem 4rem;
+      border-bottom: 1px solid #222;
+      background-color: #0e0e11;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #00ffe0;
+      text-shadow: 0 0 6px #00ffe0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+
+
+    a {
+      color: #00ffe0;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 100%;
+      height: 2px;
+      background: #00ffe0;
+      box-shadow: 0 0 8px #00ffe0, 0 0 12px #00ffe0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    a:hover {
+      color: #7fffd4; /* ou #00ffff pour un flash plus froid */
+      text-shadow: 0 0 6px #00ffe0, 0 0 12px #00ffe0;
+    }
+
+    a:hover::after {
+      transform: scaleX(1);
+    }
+
+    .solutions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid #00ffe033;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 12px #00ffe005;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: #00ffe0;
+      box-shadow: 0 0 20px #00ffe055;
+    }
+
+    .card h3 {
+      color: #00ffe0;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 4rem;
+      padding: 1rem 2rem;
+      background: #00ffe0;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      box-shadow: 0 0 12px #00ffe0;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #00ccaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      border-top: 1px solid #222;
+      background-color: #0e0e11;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Synergize.Agency</h1>
+  </header>
+
+  <div class="container">
+    <h2 style="color: #00ffe0; text-align: center; margin-bottom: 4rem;">
+      Nos Solutions Techno-Stratégiques
+    </h2>
+
+    <div class="solutions-grid">
+
+      <div class="card">
+        <h3>Architecture Cloud Contextuelle</h3>
+        <p>
+          Déploiement hybride serverless orchestré sur nodes modulaires multi-zone. Adapté à tout projet B2B quantique en scalabilité proactive.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Interface IA Symbiotique</h3>
+        <p>
+          UI/UX pensée pour la convergence cognitive. Intégration GPT-Ready et feedback neuronaux à basse latence.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Audit Blockchain Non Linéaire</h3>
+        <p>
+          Évaluation décentralisée des flux contractuels NFT API-compliant sur framework Ethereum lite. Indexation multicanale.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>CMS Headless Réactif</h3>
+        <p>
+          Gestion éditoriale atomisée en environnement composable-first. Compatible Jamstack, WAF, et principes neuroSEO.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Stratégie No-Code à Fort Impact</h3>
+        <p>
+          Accélération MVP via stack Bubble, Webflow, Airtable et scripts intelligents auto-régénératifs sans friction managériale.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Monitoring Quantique Décentralisé</h3>
+        <p>
+          Outil de supervision éthique intermodale. Détection d’anomalies prédictives par couche matricielle dédupliquée.
+        </p>
+      </div>
+
+    </div>
+
+    <div style="text-align: center;">
+      <button class="cta-button" onclick="window.location.href='/reveil'">
+        Book a Call
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Synergize.Agency – Une filiale du <a href='https://3310st.com/'>Groupe Transdigital Cloud Native Conglomérat</a>.
+    <br>Propulsé par WordPress, jQuery, React Native, Bootstrap, Tailwind, Angular et PrestaShop simultanément.
+    <br><a href='https://3310st.com/'>Toute disruption commence par un audit.</a>
+  </footer>
+
+</body>
+</html>
