@@ -155,12 +155,14 @@
   </header>
 
   <div id="particles-js" style="
-       position: absolute;
-       width: 100%;
-       height: 100%;
-       z-index: -10;
+       position: fixed;
        top: 0;
        left: 0;
+       width: 100vw;
+       height: 100vh;
+       min-height: 100%;
+       z-index: -10;
+       pointer-events: none;
      "></div>
   <section class="hero" style="position: relative; z-index: 1;">
     <h2>Orchestrez votre transformation digitale à l’échelle quantique</h2>
